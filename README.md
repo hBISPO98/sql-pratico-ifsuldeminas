@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="image_b226bd.png" width="48%" />
+  <img src="image_b22628.png" width="48%" />
+</p>
+
+
+
+
+
 # 📊 Curso Prático de SQL — IFSULDEMINAS
 
 Este repositório reúne a resolução prática de exercícios e a construção de scripts desenvolvidos ao longo da formação do IFSULDEMINAS. 
@@ -7,17 +16,6 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 ---
 
 ## 🔄 Ciclo de Vida do Projeto
-
-```
-┌─────────────────────────────────────────────────────────┐
-│ 1. DDL: Criação do Esquema (Tabelas e Restrições)      │
-├─────────────────────────────────────────────────────────┤
-│ 2. DML: Inserção, Atualização e Deleção Segura          │
-├─────────────────────────────────────────────────────────┤
-│ 3. Relatórios Analíticos: JOINs, GROUP BY e HAVING      │
-└─────────────────────────────────────────────────────────┘
-```
-
 
 | Módulo | Conteúdo e Práticas |
 | :--- | :--- |
