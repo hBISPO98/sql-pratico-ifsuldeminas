@@ -1,14 +1,8 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f">
-  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f">
+  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f", width="48%">
+  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f", width="48%">
 </p>
 
-<p align="center">
-    <img
-      src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f"
-      width="875"
-      alt="inserts"/>
-</p>
 
 
 # 📊 Curso Prático de SQL — IFSULDEMINAS
