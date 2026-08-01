@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f", width="875">
-  <img src="https://github.com/user-attachments/assets/553a8a69-7ce5-43ab-8d1c-4940357a65ac", width="875">
-
-</p>
-
-
-
 # 📊 Curso Prático de SQL — IFSULDEMINAS
 
 Este repositório reúne a resolução prática de exercícios e a construção de scripts desenvolvidos ao longo da formação do IFSULDEMINAS. 
@@ -45,7 +37,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * Cruzamento de dados com `INNER JOIN` e `LEFT JOIN`.
 * Tratamento de valores `NULL` com a função `COALESCE`.
 * Funções de agregação, agrupamento e ordenação (`SUM`, `AVG`, `COUNT`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
-* Filtragem de resultados agrupados via `HAVING`.
+* Filtragem de resultados agrupados via restrição `HAVING`.
 
 ---
 
