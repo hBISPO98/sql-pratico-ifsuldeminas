@@ -36,7 +36,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * Preenchimento inicial de registros.
 * Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 
-  | Inserção de Clientes | Inserção de Pedidos |
+| Inserção de Clientes | Inserção de Pedidos |
 | :---: | :---: |
 | <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
 
