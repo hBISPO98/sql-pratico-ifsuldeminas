@@ -27,18 +27,18 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 ### 1️⃣ Criação de Esquema (DDL)
 * 1.1 Estruturação das tabelas `clientes` e `pedidos`.
 * 1.2 Aplicação de `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE` e `DEFAULT`.
-* 3 Garantia de integridade referencial entre entidades.
-| Tabela Clientes | Tabela Pedidos |
-| :---: | :---: |
-| <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
+* 1.3 Garantia de integridade referencial entre entidades.
+| Tabela Cliente e Pedidos |
+| :---: |
+| <img src="./img/res_01_create_tables.png" width="400"/> |
 
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
 * 2.1 Preenchimento inicial de registros (`INSERT INTO`).
-* 2.2 Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 | Inserção de Clientes | Inserção de Pedidos |
 | :---: | :---: |
 | <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
 
+* 2.2 Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 | Atualização (UPDATE) | Remoção (DELETE) |
 | :---: | :---: |
 | <img src="./img/res_04_update.png" width="400"/> | <img src="./img/res_05_delete.png" width="400"/> |
@@ -46,7 +46,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 ---
 
 ### 3️⃣ Consultas, Filtros, Agregações e Relatórios Analíticos
-* Filtros e Cruzamento de dados com `JOIN`.
+* 3.1 Filtros e Cruzamento de dados com `JOIN`.
 | Filtro por Cidade | Filtro por Valor + JOIN |
 | :---: | :---: |
 | <img src="./img/res_07_filtro_cidade.png" width="400"/> | <img src="./img/res_07_filtro_valor.png" width="400"/> |
@@ -60,53 +60,35 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 | :---: | :---: |
 | <img src="./img/res_06_join_null.png" width="400"/> | <img src="./img/res_06_join_bp.png" width="400"/> |
 
-
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Funções de Agregação, Agrupamento e Ordenação (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
+* 3.2 Funções de Agregação, Agrupamento e Ordenação (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
 | Função de Contagem + Group By | Função de Soma + Group e Order By |
+| :---: | :---: |
 | <img src="./img/res_08_agregacao_count.png" width="400"/> | <img src="./img/res_08_agregacao_sum.png" width="400"/> |
 
 | Função de Média + Group By |
+| :---: | :---: |
 | <img src="./img/res_08_agregacao_avg.png" width="400"/> |
   
 | Relatório Completo de Vendas por Cliente | 
-| :---: | :---: |
-|<img src="./img/res_08_relatorio.png" width="400"/> |
+| :---: |
+| <img src="./img/res_08_relatorio.png" width="400"/> |
 
 | Ordenação Acrescente |
+| :---: |
 | <img src="./img/res_07_filtro_asc.png" width="400"/> |
 
 | Ordenação Decrescente |
+| :---: |
 | <img src="./img/res_07_filtro_desc.png" width="400"/> |
-
 
 ---
 
-* Filtragem de resultados agrupados via restrição `HAVING`.
+* 3.3 Filtragem de resultados agrupados via restrição `HAVING`.
 | Relatório com Cláusula HAVING |
 | :---: | :---: |
-|<img src="./img/res_09_having.png" width="400"/> |
-
+| <img src="./img/res_09_having.png" width="400"/> |
 
 ---
 
