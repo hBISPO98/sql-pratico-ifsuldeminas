@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="Captura de tela 2026-08-01 091025.png" width="48%">
+  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f">
+  <img src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f">
 </p>
 
 <p align="center">
-  <img src="Captura de tela 2026-08-01 091141.png" width="48%">
+    <img
+      src="https://github.com/user-attachments/assets/08ce2eba-bae0-4601-ab8d-c48e8214f34f"
+      width="875"
+      alt="inserts"/>
 </p>
-
-
 
 
 # 📊 Curso Prático de SQL — IFSULDEMINAS
@@ -17,9 +19,9 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 
 ---
 
-## 🔄 Ciclo de Vida do Projeto
+## 🔄 Ciclo de Vida do Curso
 
-| Módulo | Conteúdo e Práticas |
+| Módulo | Práticas |
 | :--- | :--- |
 | **1. DDL** | Criação do Esquema (Tabelas e Restrições) |
 | **2. DML** | Inserção, Atualização e Deleção Segura |
@@ -28,7 +30,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 
 ## 🛠️ Tecnologias e Ferramentas
 * **Linguagem:** SQL
-* **SGBD:** SQLite
+* **Sistema Gerenciado de Banco de Dados (SGBD):** SQLite
 * **Ambiente de Execução:** SQLiteOnline
 
 ---
@@ -41,13 +43,13 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * Garantia de integridade referencial entre entidades.
 
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
-* Povoamento inicial de registros.
+* Preenchimento inicial de registros.
 * Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 
 ### 3️⃣ Relatórios Analíticos e Agregações
 * Cruzamento de dados com `INNER JOIN` e `LEFT JOIN`.
 * Tratamento de valores `NULL` com a função `COALESCE`.
-* Agrupamentos e métricas de negócio (`SUM`, `AVG`, `COUNT`, `MAX`, `MIN`) com `GROUP BY`.
+* Funções de agregação, agrupamento e ordenação (`SUM`, `AVG`, `COUNT`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
 * Filtragem de resultados agrupados via `HAVING`.
 
 ---
@@ -64,5 +66,6 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 
 ## 📂 Como Executar os Scripts
 1. Acesse o [SQLiteOnline](https://sqliteonline.com/).
-2. Selecione a opção **SQLite**.
-3. Execute os arquivos SQL na ordem indicada dentro da pasta `scripts/`.
+2. Execute os arquivos SQL na ordem indicada dentro da pasta `scripts/`.
+
+> **⚠️ OBS:** Como o SQLite Online roda na memória temporária (RAM), assim que a aba for fechada ou atualizada, todos os dados criados serão apagados.
