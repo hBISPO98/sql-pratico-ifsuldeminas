@@ -1,8 +1,10 @@
 <p align="center">
   <img src="Captura de tela 2026-08-01 091025.png" width="48%">
-  <img src="Captura de tela 2026-08-01 091141.png" width="48%">
 </p>
 
+<p align="center">
+  <img src="Captura de tela 2026-08-01 091141.png" width="48%">
+</p>
 
 
 
