@@ -9,7 +9,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 ## 🔄 Ciclo de Vida do Curso
 
 | Módulo | Práticas |
-| :--- | :--- |
+| :---: | :---: |
 | **1. DDL** | Criação do Esquema (Tabelas e Restrições) |
 | **2. DML** | Inserção, Atualização e Deleção Segura |
 | **3. Relatórios** | Consultas Analíticas: JOINs, FILTROS, COALESCE, GROUP BY e HAVING |
@@ -25,17 +25,16 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 ## 🎯 Etapas do Projeto & Aprendizados
 
 ### 1️⃣ Criação de Esquema (DDL)
-* Estruturação das tabelas `clientes` e `pedidos`.
-* Aplicação de `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE` e `DEFAULT`.
-* Garantia de integridade referencial entre entidades.
+* 1.1 Estruturação das tabelas `clientes` e `pedidos`.
+* 1.2 Aplicação de `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE` e `DEFAULT`.
+* 3 Garantia de integridade referencial entre entidades.
 | Tabela Clientes | Tabela Pedidos |
 | :---: | :---: |
 | <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
 
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
-* Preenchimento inicial de registros (`INSERT INTO`).
-* Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
-
+* 2.1 Preenchimento inicial de registros (`INSERT INTO`).
+* 2.2 Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 | Inserção de Clientes | Inserção de Pedidos |
 | :---: | :---: |
 | <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
