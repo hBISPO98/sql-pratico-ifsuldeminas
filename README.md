@@ -1,8 +1,8 @@
 # 📊 Curso Prático de SQL — IFSULDEMINAS
 
-Este repositório contém o projeto prático desenvolvido durante o curso de **SQL na prática com SQLiteOnline** oferecido pelo **IFSULDEMINAS**.
+Este repositório reúne a resolução prática de exercícios e a construção de scripts desenvolvidos ao longo da formação do IFSULDEMINAS. 
 
-O projeto percorre todo o ciclo de vida de um banco de dados relacional: desde a criação da estrutura até a emissão de relatórios analíticos avançados.
+Em vez de um único projeto isolado, o foco esteve no **domínio prático dos comandos e cláusulas do SQL**, cobrindo desde a estruturação do banco até a geração de consultas analíticas.
 
 ---
 
@@ -18,6 +18,12 @@ O projeto percorre todo o ciclo de vida de um banco de dados relacional: desde a
 └─────────────────────────────────────────────────────────┘
 ```
 
+
+| Módulo | Conteúdo e Práticas |
+| :--- | :--- |
+| **1. DDL** | Criação do Esquema (Tabelas e Restrições) |
+| **2. DML** | Inserção, Atualização e Deleção Segura |
+| **3. Relatórios** | Consultas Analíticas: JOINs, GROUP BY e HAVING |
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
