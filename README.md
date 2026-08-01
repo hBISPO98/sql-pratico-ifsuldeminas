@@ -28,7 +28,9 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * Estruturação das tabelas `clientes` e `pedidos`.
 * Aplicação de `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE` e `DEFAULT`.
 * Garantia de integridade referencial entre entidades.
-  -> ![Criação das Tabelas](./img/res_01_create_tables.png)
+<div align="left">
+  <img src="./img/res_01_create_tables.png" alt="Criação das Tabelas" width="600" />
+</div>
 
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
 * Preenchimento inicial de registros.
