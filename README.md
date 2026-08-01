@@ -33,6 +33,8 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 | :---: |
 | <img src="./img/res_01_create_tables.png" width="400"/> |
 
+---
+
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
 * 2.1 Preenchimento inicial de registros (`INSERT INTO`).
 
@@ -70,7 +72,7 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * 3.3 Funções de Agregação, Agrupamento e Ordenação (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
 
 | Função de Contagem + Group By | Função de Soma + Group e Order By |
-| :---: |
+| :---: | :---: |
 | <img src="./img/res_08_agregacao_count.png" width="400"/> | <img src="./img/res_08_agregacao_sum.png" width="400"/> |
 
 | Função de Média + Group By |
