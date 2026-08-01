@@ -1,4 +1,4 @@
-# 📊 Curso Prático de SQL — IFSULDEMINAS
+# 👩🏽‍💻 Curso Prático de SQL — IFSULDEMINAS
 
 Este repositório reúne a resolução prática de exercícios e a construção de scripts desenvolvidos ao longo da formação do IFSULDEMINAS. 
 
@@ -28,16 +28,48 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 * Estruturação das tabelas `clientes` e `pedidos`.
 * Aplicação de `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE` e `DEFAULT`.
 * Garantia de integridade referencial entre entidades.
+  -> ![Criação das Tabelas](./img/res_01_create_tables.png)
 
 ### 2️⃣ Inserção e Manipulação de Dados (DML)
 * Preenchimento inicial de registros.
 * Práticas de **alteração e deleção segura** (`UPDATE` e `DELETE`) utilizando blocos transacionais (`BEGIN TRANSACTION`, `COMMIT`, `ROLLBACK`) e conferência prévia via `SELECT`.
 
+  | Inserção de Clientes | Inserção de Pedidos |
+| :---: | :---: |
+| <img src="./img/res_02_insert_clientes.png" width="400"/> | <img src="./img/res_02_insert_pedidos.png" width="400"/> |
+
+| Atualização (UPDATE) | Remoção (DELETE) |
+| :---: | :---: |
+| <img src="./img/res_04_update.png" width="400"/> | <img src="./img/res_05_delete.png" width="400"/> |
+
 ### 3️⃣ Relatórios Analíticos e Agregações
 * Cruzamento de dados com `INNER JOIN` e `LEFT JOIN`.
+  ->
 * Tratamento de valores `NULL` com a função `COALESCE`.
+ ->
 * Funções de agregação, agrupamento e ordenação (`SUM`, `AVG`, `COUNT`, `MAX`, `MIN`) com `GROUP BY` e `ORDER BY`.
+ ->
 * Filtragem de resultados agrupados via restrição `HAVING`.
+ -> Relatório Completo de Vendas por Cliente:**
+
+
+
+  
+![Relatório de Agregações](./img/res_08_relatorio.png)
+
+**Filtros em Agrupamentos (HAVING):**
+![Aplicação do HAVING](./img/res_09_having.png)
+
+**Relatório Completo de Vendas por Cliente:**
+![Relatório de Agregações](./img/res_08_relatorio.png)
+
+**Filtros em Agrupamentos (HAVING):**
+![Aplicação do HAVING](./img/res_09_having.png)
+
+
+
+
+
 
 ---
 
