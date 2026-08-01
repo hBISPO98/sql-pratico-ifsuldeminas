@@ -75,21 +75,13 @@ Em vez de um único projeto isolado, o foco esteve no **domínio prático dos co
 | :---: | :---: |
 | <img src="./img/res_08_agregacao_count.png" width="400"/> | <img src="./img/res_08_agregacao_sum.png" width="400"/> |
 
-| Função de Média + Group By |
-| :---: | 
-| <img src="./img/res_08_agregacao_avg.png" width="400"/> |
+| Função de Média + Group By | Relatório Completo de Vendas por Cliente | 
+| :---: | :---: | 
+| <img src="./img/res_08_agregacao_avg.png" width="400"/> | <img src="./img/res_08_relatorio.png" width="400"/> |
   
-| Relatório Completo de Vendas por Cliente | 
-| :---: |
-| <img src="./img/res_08_relatorio.png" width="400"/> |
-
-| Ordenação Acrescente |
-| :---: |
-| <img src="./img/res_07_filtro_asc.png" width="400"/> |
-
-| Ordenação Decrescente |
-| :---: |
-| <img src="./img/res_07_filtro_desc.png" width="400"/> |
+| Ordenação Crescente | Ordenação Decrescente |
+| :---: | :---: | 
+| <img src="./img/res_07_filtro_asc.png" width="400"/> | <img src="./img/res_07_filtro_desc.png" width="400"/> |
 
 ---
 
