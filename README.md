@@ -1,4 +1,4 @@
-# 👩🏽‍💻 Curso Prático de SQL — IFSULDEMINAS `V1`
+# 👩🏽‍💻 Curso Prático de SQL — IFSULDEMINAS 
 
 Este repositório reúne a resolução prática de exercícios e a construção de scripts desenvolvidos ao longo da formação do IFSULDEMINAS. 
 
